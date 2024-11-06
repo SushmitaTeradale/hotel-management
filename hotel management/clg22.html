@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+       
+        
+
+
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.btn {
+    background: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services, .about, .contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2, .about h2, .contact h2 {
+    margin-bottom: 20px;
+}
+
+.services {
+    margin: 20px 0;
+} .features{
+            height: 290px;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .features .f-card{
+            height: 175px;
+            width: 165px;
+            /* background-color: aqua; */
+            border: 1px solid black;
+            border-radius: 12px;
+        
+        }
+        .f-card:hover{
+            transform: scale(1.2);
+            transition: 3s;
+            box-shadow: 5px 5px 30px color(srgb red green blue)
+        }
+        .features img{
+            width: 100%;
+            height: 60%;
+            border-radius: 10px;
+        
+            border-bottom: 10px;
+        }
+        h1{
+            text-align: center;
+           
+            font-family: cursive;
+        }
+        /* .features button{
+            height: 30px;
+            width: 110;
+            padding: 10px;
+            
+            line-height: 1;
+            align-content: center;
+            margin: 12px 0px 0px 30px;
+            border: none;
+            border-radius: 5px;
+        } */
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+    </style>
+</head>
+<body>
+    <main class="main">
+        
+    <header>
+        <div class="logo">Hotel Management</div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Our Hotel</h1>
+        <p>Your comfort is our priority.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+    <h1>Rooms facilities</h1>
+    <section class="features">
+        
+        <div class="f-card">
+            
+            <img src="../room1.jpg" alt="">
+            
+            <p1>Regular Room</p1>
+            <p>price $200</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:antiquewhite;">Free shipping</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../room2.jpg" alt="">
+            <p1>Single Room</p1>
+            <p>price $230</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:brown ;">Online order</button> -->
+        </div>
+        <div class="f-card">
+            
+            <img src="../room3.jpg" alt="">
+            <p1>family Room</p1>
+            <p>price $500</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:red ;">Save money</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../room4.jpg" alt="">
+            <p1>luxry Room</p1>
+            <p>price $600</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:olive ;">Promotion</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../room5.jpg" alt="">
+            <p1>Double Room</p1>
+            <p>price $400</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:rebeccapurple ;">Happy sell</button> -->
+        </div>
+        <!-- <div class="f-card">
+            <img src="" alt="">
+            <!-- <button style="background-color: navajowhite;">24/7 support</button> -->
+        <!-- </div> --> 
+    </section>
+    <h1>kids entertainment</h1>
+    <section class="features">
+        
+        <div class="f-card">
+            <img src="../pool1.jpg" alt="">
+            <p1>swimming pool</p1>
+            <p>price $200</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+             <!-- <button style="background-color:antiquewhite;">Free shipping</button>  -->
+        </div>
+        <div class="f-card">
+            <img src="../pool2.jpg" alt="">
+            <p1>game Zone</p1>
+            <p>price $600</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:brown ;">Online order</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../pool3.jpg" alt="">
+            <p1>Rain Dance</p1>
+            <p>price $800</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:red ;">Save money</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../pool4.jpg" alt="">
+            <p1>dance</p1>
+            <p>price $900</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:olive ;">Promotion</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../pool5.jpg" alt="">
+            <p1>funny Zone</p1>
+            <p>price $900</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:rebeccapurple ;">Happy sell</button> -->
+        </div>
+        <!-- <div class="f-card">
+            <img src="" alt=""> -->
+            <!-- <button style="background-color: navajowhite;">24/7 support</button> -->
+        <!-- </div> -->
+    </section>
+    <h2>Our Services</h2>
+    <h1>Food Facilities</h1>
+
+    <section class="features">
+        <div class="f-card">
+            <img src="../food1.jpg" alt="">
+            <p1>south indian</p1>
+            <p>price $220</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:antiquewhite;">Free shipping</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../food2.jpg" alt="">
+            <p1>Gujarati tali</p1>
+            <p>price $250</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:brown ;">Online order</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../food3.jpg" alt="">
+            <p1>Non veg</p1>
+            <p>price $300</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:red ;">Save money</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../food4.jpg" alt="">
+            <p1>chinese</p1>
+            <p>price $170</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:olive ;">Promotion</button> -->
+        </div>
+        <div class="f-card">
+            <img src="../food6.jpg" alt="">
+            <p1>gulab jam </p1>
+            <p>price $400</p>
+            <i class="fa-solid fa-star" style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <i class="fa-solid fa-star"  style="color: yellow"></i>
+            <!-- <button style="background-color:rebeccapurple ;">Happy sell</button> -->
+        </div>
+        <!-- <div class="f-card">
+            <img src="" alt=""> -->
+            <!-- <button style="background-color: navajowhite;">24/7 support</button> -->
+        <!-- </div> -->
+    </section>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing the best hospitality experience. Our team is committed to making your stay unforgettable.</p>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@hotelmanagement.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+    </main>
+        
+    
+
+
+    <!-- <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Room Booking</h3>
+            <p>Book your stay with us easily and quickly.</p>
+        </div>
+        <div class="service">
+            <h3>Restaurant</h3>
+            <p>Enjoy gourmet meals from our in-house restaurant.</p>
+        </div>
+        <div class="service">
+            <h3>Spa & Wellness</h3>
+            <p>Relax and rejuvenate with our spa services.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing the best hospitality experience. Our team is committed to making your stay unforgettable.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@hotelmanagement.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section> -->
+    
+
+    <footer>
+        <p>&copy; 2023 Hotel Management. All Rights Reserved.</p>
+    </footer>
+</main>
+</body>
+</html>
